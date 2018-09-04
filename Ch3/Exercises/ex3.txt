@@ -1,0 +1,33 @@
+Invalid constants and why ?
+
+Valid
+123.456			
+0X0G1			
+0001			
+0xFFFF			
+123L			
+0Xab05			
+0L				
+-597.25			
+123.5e2			
+.0001			
++12				
+98.6F			
+-12E-12			
+07777			
+1234uL			
+15,000			
+1.234L			
+197u			
+100U			
+0XABCDEFL 		
+0xabcu			
++123			
+
+
+Invalid
+0x10.5			- hexadecitmal floating constants require an exponent
+0996			- Base 8 cannot hold numbers above 7
+98.7U			- invalid suffix U in floating constant
+1.2Fe-7			- invalid suffix Fe-7 in floating constant
+17777s			- Invalid suffix "s" on integer constant

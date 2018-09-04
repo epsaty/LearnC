@@ -1,0 +1,19 @@
+Which of the following are invalid variable names? Why?
+
+
+Valid
+Int 					- int is reserved
+calloc      			
+Xx						
+alpha_beta_routine		
+floating				- floatloat is reserved
+_1312					
+ReInitialize			
+_ 						- bad practice, but valid
+z						
+
+
+Invalid
+char 					- C reserver word 
+6_05					- var name cannot start with digit
+A$						- character used in variable names can only be a-z, A-Z, 0-9 or _ (underscore)
